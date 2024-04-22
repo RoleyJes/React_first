@@ -1,0 +1,52 @@
+.repoListSection {
+  background: linear-gradient(
+    198deg,
+    rgba(221, 153, 0, 0.04) 87.85% rgba(39, 92, 13, 0.1) 6.77%
+  );
+  padding: 4rem 2rem;
+}
+
+.repoTableHeader {
+  margin-block-end: 1rem;
+  border-bottom: 1px solid rgb(185, 181, 187);
+  padding-block-end: 0.5rem;
+}
+
+.repoTableHeader p {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.repoListCont > div,
+.repoTableHeader {
+  display: grid;
+  grid-template-columns: 5fr 3fr 3fr 1fr;
+  max-width: 70rem;
+  margin-inline: auto;
+  padding-block: 0.5rem;
+}
+
+.repoName {
+  font-weight: 500;
+}
+.detailsDot {
+  place-self: end;
+}
+
+.btnsCont {
+  margin-block-start: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  place-content: center;
+}
+
+.btnsCont span,
+.btnsCont p {
+  cursor: pointer;
+}
+
+.active {
+  color: #275c0d;
+  font-weight: 700;
+}
