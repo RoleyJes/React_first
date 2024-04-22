@@ -7,7 +7,7 @@ import axios from "axios";
 
 const Repoo = () => {
   const [repos, setRepos] = useState([]);
-  const [reposPerPage, setReposPerPage] = useState(10);
+  const [reposPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
